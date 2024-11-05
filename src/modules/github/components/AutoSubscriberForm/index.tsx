@@ -60,7 +60,10 @@ const AutoSubscriberForm: FC = () => {
                 </Title>
                 <ol style={{ color: "#fff", textAlign: "left" }}>
                   <li>
-                    <a href="" target="_blank">
+                    <a
+                      href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
+                      target="_blank"
+                    >
                       Create a personal access GitHub token
                     </a>
                     , with selected <b>user:follow</b> scope <br />
