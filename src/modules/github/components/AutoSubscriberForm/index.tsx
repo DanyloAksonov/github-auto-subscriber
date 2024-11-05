@@ -3,11 +3,10 @@ import {
   autoSubscriberFormSchema,
   AutoSubscriberFormFieldsType,
 } from "./schema";
-import { Button, Col, Form, message, Modal, Row, Tooltip } from "antd";
+import { Button, Col, Form, message, Modal, Row } from "antd";
 import Input from "@modules/common/components/Input";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { QuestionCircleOutlined } from "@ant-design/icons";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
 
